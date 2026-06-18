@@ -1,0 +1,10 @@
+{
+  "grupoFamiliar": [
+    { "nome": "Maria (mãe)", "idade": 44, "fontesRenda": ["clt"] },
+    { "nome": "João (pai)", "idade": 47, "fontesRenda": ["desempregado"] },
+    { "nome": "Ana (candidata)", "idade": 18, "fontesRenda": [] }
+  ],
+  "moradia": "alugada",
+  "possuiVeiculo": false,
+  "paisSeparados": false
+}
