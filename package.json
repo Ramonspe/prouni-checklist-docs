@@ -1,0 +1,31 @@
+{
+  "name": "prouni-checklist-docs",
+  "version": "0.1.0",
+  "description": "Gera a lista de documentos exigidos do PROUNI a partir da ficha socioeconômica",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "prouni-checklist": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "prouni",
+    "documentos",
+    "checklist",
+    "ficha-socioeconomica",
+    "bolsa"
+  ],
+  "author": "Ramon Santos Pereira",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
