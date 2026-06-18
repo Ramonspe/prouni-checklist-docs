@@ -27,6 +27,12 @@ function main(argv: string[]): void {
   const docs = gerarChecklist(ficha);
   const total = ficha.grupoFamiliar.length;
 
+  // Saída legível por máquina, para integração com o portal.
+  if (argv.includes("--json")) {
+    console.log(JSON.stringify(docs, null, 2));
+    return;
+  }
+
   console.log(`\n✔ Checklist gerada para grupo familiar de ${total} pessoa(s)\n`);
 
   let categoriaAtual = "";
