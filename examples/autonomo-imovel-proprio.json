@@ -1,0 +1,10 @@
+{
+  "grupoFamiliar": [
+    { "nome": "Carlos (pai)", "idade": 51, "fontesRenda": ["autonomo", "aluguel"] },
+    { "nome": "Lúcia (mãe)", "idade": 49, "fontesRenda": ["aposentado"], "pcd": true },
+    { "nome": "Pedro (candidato)", "idade": 19, "fontesRenda": ["estagio"] }
+  ],
+  "moradia": "propria",
+  "possuiVeiculo": true,
+  "paisSeparados": false
+}
